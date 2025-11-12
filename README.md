@@ -64,10 +64,16 @@ You must have Python 3.8 or newer installed. You will also need to install the r
 
 2. Installation
 
-Clone the repository (or download the script):
+. Installation
 
-git clone https://your-repo-url/car-orientation-tool.git
-cd car-orientation-tool
+Clone the repository:
+
+git clone [https://github.com/Akshat-Agarwal-eng/Car-Orientation-Analysis-Tool.git](https://github.com/Akshat-Agarwal-eng/Car-Orientation-Analysis-Tool.git)
+
+
+Navigate to the project directory:
+
+cd Car-Orientation-Analysis-Tool
 
 
 Install the required Python packages:
@@ -78,6 +84,7 @@ pip install -r requirements.txt
 If a requirements.txt file is not available, install the libraries manually:
 
 pip install opencv-python-headless numpy ultralytics torch torchvision requests openpyxl pillow
+
 
 
 Obtain Model Weights:
